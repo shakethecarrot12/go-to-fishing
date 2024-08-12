@@ -1,0 +1,83 @@
+/*reset*/
+body,h1,h2,p{
+    margin:unset;
+}
+
+h1,h2,p{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: arial;
+}
+
+li{
+    list-style-type: none;
+}
+/*reset*/
+
+:root{
+    background-image: url(img/bg.png);
+}
+
+/*header*/
+.header{
+    height: 230px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 70px;
+    font-weight: bold;
+}
+/*header*/
+
+/*main*/
+.main{
+    text-align: center;
+}
+.img{
+    width: 600px;
+    height: 300px;
+
+    border-radius: 100px;
+    border: solid 10px black;
+}
+.spot-l_wrapper{
+    display:flex;
+}
+.info-wrapper{
+    flex-grow: 1;
+}
+.fishing-spot{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fishing-spot-info{
+    font-size:16px;
+}
+.if-going{
+    font-size:25px;
+    font-weight: bold;
+}
+/*main*/
+
+/*footer*/
+.footer{
+    height: 200px;
+    text-align: center;
+}
+.footer-link{
+    font-size:100px;
+    font-weight: bold;
+}
+.footer-link-homepage{
+    font-size:50px;
+    font-weight: bold;
+}
+/*footer*/
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
